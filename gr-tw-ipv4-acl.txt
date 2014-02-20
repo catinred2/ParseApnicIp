@@ -1,0 +1,527 @@
+ipv4 access-list source-taiwan-ipv4
+  10 remark delegated-apnic-20140214
+  20 permit ipv4 1.34.0.0/15 any
+  30 permit ipv4 1.160.0.0/12 any
+  40 permit ipv4 1.200.0.0/16 any
+  50 permit ipv4 27.51.0.0/16 any
+  60 permit ipv4 27.52.0.0/15 any
+  70 permit ipv4 27.96.224.0/19 any
+  80 permit ipv4 27.100.64.0/18 any
+  90 permit ipv4 27.105.0.0/16 any
+ 100 permit ipv4 27.147.0.0/18 any
+ 110 permit ipv4 27.240.0.0/13 any
+ 120 permit ipv4 36.224.0.0/12 any
+ 130 permit ipv4 39.1.0.0/16 any
+ 140 permit ipv4 39.8.0.0/13 any
+ 150 permit ipv4 42.0.64.0/18 any
+ 160 permit ipv4 42.64.0.0/12 any
+ 170 permit ipv4 49.128.64.0/19 any
+ 180 permit ipv4 49.128.112.0/20 any
+ 190 permit ipv4 49.158.0.0/15 any
+ 200 permit ipv4 49.213.128.0/17 any
+ 210 permit ipv4 49.214.0.0/15 any
+ 220 permit ipv4 49.216.0.0/14 any
+ 230 permit ipv4 58.86.0.0/16 any
+ 240 permit ipv4 58.99.0.0/18 any
+ 250 permit ipv4 58.99.64.0/18 any
+ 260 permit ipv4 58.114.0.0/15 any
+ 270 permit ipv4 59.102.128.0/17 any
+ 280 permit ipv4 59.104.0.0/15 any
+ 290 permit ipv4 59.112.0.0/13 any
+ 300 permit ipv4 59.120.0.0/14 any
+ 310 permit ipv4 59.124.0.0/14 any
+ 320 permit ipv4 60.198.0.0/16 any
+ 330 permit ipv4 60.199.0.0/16 any
+ 340 permit ipv4 60.244.0.0/19 any
+ 350 permit ipv4 60.244.32.0/19 any
+ 360 permit ipv4 60.244.64.0/18 any
+ 370 permit ipv4 60.244.128.0/17 any
+ 380 permit ipv4 60.245.0.0/18 any
+ 390 permit ipv4 60.245.64.0/19 any
+ 400 permit ipv4 60.245.96.0/19 any
+ 410 permit ipv4 60.248.0.0/16 any
+ 420 permit ipv4 60.249.0.0/16 any
+ 430 permit ipv4 60.250.0.0/15 any
+ 440 permit ipv4 61.20.0.0/16 any
+ 450 permit ipv4 61.30.0.0/16 any
+ 460 permit ipv4 61.31.0.0/16 any
+ 470 permit ipv4 61.56.0.0/13 any
+ 480 permit ipv4 61.64.0.0/14 any
+ 490 permit ipv4 61.70.0.0/17 any
+ 500 permit ipv4 61.70.128.0/17 any
+ 510 permit ipv4 61.71.0.0/17 any
+ 520 permit ipv4 61.71.128.0/17 any
+ 530 permit ipv4 61.216.0.0/16 any
+ 540 permit ipv4 61.217.0.0/16 any
+ 550 permit ipv4 61.218.0.0/15 any
+ 560 permit ipv4 61.220.0.0/14 any
+ 570 permit ipv4 61.224.0.0/14 any
+ 580 permit ipv4 61.228.0.0/14 any
+ 590 permit ipv4 61.247.160.0/20 any
+ 600 permit ipv4 101.0.128.0/17 any
+ 610 permit ipv4 101.3.0.0/16 any
+ 620 permit ipv4 101.8.0.0/13 any
+ 630 permit ipv4 101.136.0.0/14 any
+ 640 permit ipv4 103.2.216.0/22 any
+ 650 permit ipv4 103.3.192.0/22 any
+ 660 permit ipv4 103.4.104.0/22 any
+ 670 permit ipv4 103.5.32.0/22 any
+ 680 permit ipv4 103.5.100.0/22 any
+ 690 permit ipv4 103.8.104.0/22 any
+ 700 permit ipv4 103.9.116.0/22 any
+ 710 permit ipv4 103.10.4.0/22 any
+ 720 permit ipv4 103.10.204.0/22 any
+ 730 permit ipv4 103.16.240.0/22 any
+ 740 permit ipv4 103.16.244.0/22 any
+ 750 permit ipv4 103.17.8.0/22 any
+ 760 permit ipv4 103.17.240.0/22 any
+ 770 permit ipv4 103.18.80.0/22 any
+ 780 permit ipv4 103.18.128.0/22 any
+ 790 permit ipv4 103.20.40.0/22 any
+ 800 permit ipv4 103.20.176.0/22 any
+ 810 permit ipv4 103.21.60.0/22 any
+ 820 permit ipv4 103.21.196.0/22 any
+ 830 permit ipv4 103.22.156.0/22 any
+ 840 permit ipv4 103.23.108.0/22 any
+ 850 permit ipv4 103.24.100.0/22 any
+ 860 permit ipv4 103.25.232.0/22 any
+ 870 permit ipv4 103.25.236.0/22 any
+ 880 permit ipv4 103.28.200.0/23 any
+ 890 permit ipv4 103.30.44.0/22 any
+ 900 permit ipv4 103.30.128.0/22 any
+ 910 permit ipv4 103.30.132.0/22 any
+ 920 permit ipv4 103.31.196.0/22 any
+ 930 permit ipv4 103.224.132.0/22 any
+ 940 permit ipv4 103.224.192.0/22 any
+ 950 permit ipv4 103.224.200.0/22 any
+ 960 permit ipv4 103.224.204.0/22 any
+ 970 permit ipv4 103.225.0.0/22 any
+ 980 permit ipv4 103.241.68.0/22 any
+ 990 permit ipv4 103.243.248.0/22 any
+1000 permit ipv4 103.246.208.0/22 any
+1010 permit ipv4 103.247.112.0/22 any
+1020 permit ipv4 103.252.68.0/22 any
+1030 permit ipv4 103.252.244.0/24 any
+1040 permit ipv4 106.1.0.0/16 any
+1050 permit ipv4 106.64.0.0/15 any
+1060 permit ipv4 106.104.0.0/14 any
+1070 permit ipv4 110.24.0.0/13 any
+1080 permit ipv4 110.50.128.0/18 any
+1090 permit ipv4 111.67.48.0/20 any
+1100 permit ipv4 111.70.0.0/15 any
+1110 permit ipv4 111.80.0.0/14 any
+1120 permit ipv4 111.125.128.0/21 any
+1130 permit ipv4 111.184.0.0/15 any
+1140 permit ipv4 111.235.192.0/18 any
+1150 permit ipv4 111.240.0.0/12 any
+1160 permit ipv4 112.78.16.0/20 any
+1170 permit ipv4 112.78.64.0/19 any
+1180 permit ipv4 112.78.104.0/21 any
+1190 permit ipv4 112.104.0.0/15 any
+1200 permit ipv4 112.121.32.0/20 any
+1210 permit ipv4 112.121.64.0/18 any
+1220 permit ipv4 112.213.48.0/20 any
+1230 permit ipv4 113.21.80.0/20 any
+1240 permit ipv4 113.21.160.0/19 any
+1250 permit ipv4 113.61.128.0/17 any
+1260 permit ipv4 113.196.0.0/16 any
+1270 permit ipv4 114.24.0.0/14 any
+1280 permit ipv4 114.30.32.0/20 any
+1290 permit ipv4 114.32.0.0/12 any
+1300 permit ipv4 114.136.0.0/15 any
+1310 permit ipv4 114.140.0.0/16 any
+1320 permit ipv4 114.198.160.0/20 any
+1330 permit ipv4 114.198.176.0/20 any
+1340 permit ipv4 115.30.64.0/18 any
+1350 permit ipv4 115.42.80.0/20 any
+1360 permit ipv4 115.42.112.0/21 any
+1370 permit ipv4 115.43.0.0/16 any
+1380 permit ipv4 115.80.0.0/14 any
+1390 permit ipv4 115.85.144.0/20 any
+1400 permit ipv4 115.165.192.0/18 any
+1410 permit ipv4 116.50.32.0/20 any
+1420 permit ipv4 116.59.0.0/16 any
+1430 permit ipv4 116.89.128.0/20 any
+1440 permit ipv4 116.118.128.0/18 any
+1450 permit ipv4 116.212.80.0/20 any
+1460 permit ipv4 116.214.0.0/20 any
+1470 permit ipv4 116.241.0.0/16 any
+1480 permit ipv4 117.19.0.0/16 any
+1490 permit ipv4 117.56.0.0/16 any
+1500 permit ipv4 117.103.96.0/20 any
+1510 permit ipv4 118.99.128.0/17 any
+1520 permit ipv4 118.150.0.0/16 any
+1530 permit ipv4 118.160.0.0/13 any
+1540 permit ipv4 118.168.0.0/14 any
+1550 permit ipv4 118.231.0.0/16 any
+1560 permit ipv4 118.232.0.0/15 any
+1570 permit ipv4 119.14.0.0/16 any
+1580 permit ipv4 119.15.192.0/18 any
+1590 permit ipv4 119.30.16.0/20 any
+1600 permit ipv4 119.31.176.0/20 any
+1610 permit ipv4 119.75.240.0/20 any
+1620 permit ipv4 119.77.128.0/17 any
+1630 permit ipv4 119.160.240.0/20 any
+1640 permit ipv4 120.96.0.0/11 any
+1650 permit ipv4 121.50.144.0/21 any
+1660 permit ipv4 121.50.176.0/20 any
+1670 permit ipv4 121.254.64.0/18 any
+1680 permit ipv4 122.99.0.0/18 any
+1690 permit ipv4 122.100.64.0/18 any
+1700 permit ipv4 122.116.0.0/15 any
+1710 permit ipv4 122.118.0.0/16 any
+1720 permit ipv4 122.120.0.0/13 any
+1730 permit ipv4 122.128.80.0/21 any
+1740 permit ipv4 122.144.32.0/19 any
+1750 permit ipv4 122.146.0.0/15 any
+1760 permit ipv4 122.200.152.0/21 any
+1770 permit ipv4 122.201.128.0/17 any
+1780 permit ipv4 122.252.160.0/20 any
+1790 permit ipv4 122.254.0.0/18 any
+1800 permit ipv4 122.255.80.0/20 any
+1810 permit ipv4 123.0.32.0/19 any
+1820 permit ipv4 123.0.192.0/18 any
+1830 permit ipv4 123.50.32.0/19 any
+1840 permit ipv4 123.51.128.0/17 any
+1850 permit ipv4 123.99.0.0/19 any
+1860 permit ipv4 123.99.32.0/19 any
+1870 permit ipv4 123.110.0.0/16 any
+1880 permit ipv4 123.192.0.0/14 any
+1890 permit ipv4 123.204.0.0/15 any
+1900 permit ipv4 123.240.0.0/15 any
+1910 permit ipv4 123.252.0.0/17 any
+1920 permit ipv4 123.255.224.0/21 any
+1930 permit ipv4 124.6.0.0/19 any
+1940 permit ipv4 124.8.0.0/14 any
+1950 permit ipv4 124.12.0.0/16 any
+1960 permit ipv4 124.29.128.0/19 any
+1970 permit ipv4 124.29.160.0/19 any
+1980 permit ipv4 124.108.128.0/18 any
+1990 permit ipv4 124.109.112.0/20 any
+2000 permit ipv4 124.150.128.0/21 any
+2010 permit ipv4 124.155.128.0/19 any
+2020 permit ipv4 124.155.160.0/19 any
+2030 permit ipv4 124.199.64.0/19 any
+2040 permit ipv4 124.199.96.0/20 any
+2050 permit ipv4 124.218.0.0/16 any
+2060 permit ipv4 124.219.0.0/17 any
+2070 permit ipv4 125.62.224.0/20 any
+2080 permit ipv4 125.224.0.0/13 any
+2090 permit ipv4 125.232.0.0/15 any
+2100 permit ipv4 134.208.0.0/16 any
+2110 permit ipv4 139.175.0.0/16 any
+2120 permit ipv4 139.223.0.0/16 any
+2130 permit ipv4 140.92.0.0/16 any
+2140 permit ipv4 140.96.0.0/16 any
+2150 permit ipv4 140.109.0.0/16 any
+2160 permit ipv4 140.110.0.0/16 any
+2170 permit ipv4 140.111.0.0/16 any
+2180 permit ipv4 140.112.0.0/16 any
+2190 permit ipv4 140.113.0.0/16 any
+2200 permit ipv4 140.114.0.0/16 any
+2210 permit ipv4 140.115.0.0/16 any
+2220 permit ipv4 140.116.0.0/14 any
+2230 permit ipv4 140.120.0.0/13 any
+2240 permit ipv4 140.128.0.0/16 any
+2250 permit ipv4 140.129.0.0/16 any
+2260 permit ipv4 140.130.0.0/16 any
+2270 permit ipv4 140.131.0.0/16 any
+2280 permit ipv4 140.132.0.0/16 any
+2290 permit ipv4 140.133.0.0/16 any
+2300 permit ipv4 140.134.0.0/16 any
+2310 permit ipv4 140.135.0.0/16 any
+2320 permit ipv4 140.136.0.0/15 any
+2330 permit ipv4 140.138.0.0/16 any
+2340 permit ipv4 150.116.0.0/15 any
+2350 permit ipv4 163.13.0.0/16 any
+2360 permit ipv4 163.14.0.0/15 any
+2370 permit ipv4 163.16.0.0/12 any
+2380 permit ipv4 163.32.0.0/16 any
+2390 permit ipv4 168.95.0.0/16 any
+2400 permit ipv4 175.41.48.0/20 any
+2410 permit ipv4 175.96.0.0/14 any
+2420 permit ipv4 175.111.32.0/19 any
+2430 permit ipv4 175.111.192.0/18 any
+2440 permit ipv4 175.180.0.0/14 any
+2450 permit ipv4 175.184.240.0/21 any
+2460 permit ipv4 180.92.0.0/20 any
+2470 permit ipv4 180.176.0.0/15 any
+2480 permit ipv4 180.204.0.0/14 any
+2490 permit ipv4 180.214.176.0/20 any
+2500 permit ipv4 180.217.0.0/16 any
+2510 permit ipv4 180.218.0.0/16 any
+2520 permit ipv4 180.222.204.0/22 any
+2530 permit ipv4 182.155.0.0/16 any
+2540 permit ipv4 182.173.0.0/18 any
+2550 permit ipv4 182.173.68.0/22 any
+2560 permit ipv4 182.233.0.0/16 any
+2570 permit ipv4 182.234.0.0/15 any
+2580 permit ipv4 182.239.44.0/22 any
+2590 permit ipv4 192.72.3.0/24 any
+2600 permit ipv4 192.72.4.0/24 any
+2610 permit ipv4 192.72.5.0/24 any
+2620 permit ipv4 192.72.6.0/24 any
+2630 permit ipv4 192.72.7.0/24 any
+2640 permit ipv4 192.72.8.0/24 any
+2650 permit ipv4 192.72.9.0/24 any
+2660 permit ipv4 192.72.10.0/24 any
+2670 permit ipv4 192.72.11.0/24 any
+2680 permit ipv4 192.72.12.0/24 any
+2690 permit ipv4 192.72.13.0/24 any
+2700 permit ipv4 192.72.14.0/24 any
+2710 permit ipv4 192.72.15.0/24 any
+2720 permit ipv4 192.72.16.0/24 any
+2730 permit ipv4 192.72.17.0/24 any
+2740 permit ipv4 192.72.18.0/24 any
+2750 permit ipv4 192.72.19.0/24 any
+2760 permit ipv4 192.72.20.0/24 any
+2770 permit ipv4 192.72.21.0/24 any
+2780 permit ipv4 192.72.22.0/24 any
+2790 permit ipv4 192.72.23.0/24 any
+2800 permit ipv4 192.72.24.0/24 any
+2810 permit ipv4 192.72.25.0/24 any
+2820 permit ipv4 192.72.26.0/24 any
+2830 permit ipv4 192.72.27.0/24 any
+2840 permit ipv4 192.72.28.0/24 any
+2850 permit ipv4 192.72.29.0/24 any
+2860 permit ipv4 192.72.30.0/24 any
+2870 permit ipv4 192.72.31.0/24 any
+2880 permit ipv4 192.72.32.0/24 any
+2890 permit ipv4 192.72.33.0/24 any
+2900 permit ipv4 192.72.34.0/23 any
+2910 permit ipv4 192.72.36.0/22 any
+2920 permit ipv4 192.72.40.0/21 any
+2930 permit ipv4 192.72.48.0/20 any
+2940 permit ipv4 192.72.64.0/18 any
+2950 permit ipv4 192.72.128.0/22 any
+2960 permit ipv4 192.72.132.0/24 any
+2970 permit ipv4 192.72.133.0/24 any
+2980 permit ipv4 192.72.134.0/23 any
+2990 permit ipv4 192.72.136.0/21 any
+3000 permit ipv4 192.72.144.0/20 any
+3010 permit ipv4 192.72.160.0/19 any
+3020 permit ipv4 192.72.192.0/19 any
+3030 permit ipv4 192.72.224.0/20 any
+3040 permit ipv4 192.72.240.0/21 any
+3050 permit ipv4 192.72.248.0/22 any
+3060 permit ipv4 192.72.252.0/24 any
+3070 permit ipv4 192.83.166.0/24 any
+3080 permit ipv4 192.83.167.0/24 any
+3090 permit ipv4 192.83.168.0/24 any
+3100 permit ipv4 192.83.169.0/24 any
+3110 permit ipv4 192.83.170.0/24 any
+3120 permit ipv4 192.83.171.0/24 any
+3130 permit ipv4 192.83.172.0/24 any
+3140 permit ipv4 192.83.173.0/24 any
+3150 permit ipv4 192.83.174.0/24 any
+3160 permit ipv4 192.83.175.0/24 any
+3170 permit ipv4 192.83.176.0/24 any
+3180 permit ipv4 192.83.177.0/24 any
+3190 permit ipv4 192.83.178.0/24 any
+3200 permit ipv4 192.83.179.0/24 any
+3210 permit ipv4 192.83.180.0/24 any
+3220 permit ipv4 192.83.181.0/24 any
+3230 permit ipv4 192.83.182.0/23 any
+3240 permit ipv4 192.83.184.0/24 any
+3250 permit ipv4 192.83.185.0/24 any
+3260 permit ipv4 192.83.186.0/24 any
+3270 permit ipv4 192.83.187.0/24 any
+3280 permit ipv4 192.83.188.0/24 any
+3290 permit ipv4 192.83.189.0/24 any
+3300 permit ipv4 192.83.190.0/24 any
+3310 permit ipv4 192.83.191.0/24 any
+3320 permit ipv4 192.83.192.0/24 any
+3330 permit ipv4 192.83.193.0/24 any
+3340 permit ipv4 192.83.194.0/23 any
+3350 permit ipv4 192.83.196.0/24 any
+3360 permit ipv4 192.192.0.0/17 any
+3370 permit ipv4 192.192.128.0/19 any
+3380 permit ipv4 192.192.160.0/22 any
+3390 permit ipv4 192.192.164.0/24 any
+3400 permit ipv4 192.192.165.0/24 any
+3410 permit ipv4 192.192.166.0/23 any
+3420 permit ipv4 192.192.168.0/21 any
+3430 permit ipv4 192.192.176.0/20 any
+3440 permit ipv4 192.192.192.0/18 any
+3450 permit ipv4 202.2.52.0/22 any
+3460 permit ipv4 202.3.160.0/19 any
+3470 permit ipv4 202.5.4.0/23 any
+3480 permit ipv4 202.5.8.0/22 any
+3490 permit ipv4 202.5.12.0/22 any
+3500 permit ipv4 202.5.224.0/19 any
+3510 permit ipv4 202.6.104.0/23 any
+3520 permit ipv4 202.8.14.0/23 any
+3530 permit ipv4 202.39.0.0/16 any
+3540 permit ipv4 202.41.146.0/24 any
+3550 permit ipv4 202.55.224.0/19 any
+3560 permit ipv4 202.59.250.0/23 any
+3570 permit ipv4 202.80.104.0/21 any
+3580 permit ipv4 202.126.64.0/20 any
+3590 permit ipv4 202.132.0.0/16 any
+3600 permit ipv4 202.133.224.0/19 any
+3610 permit ipv4 202.140.160.0/19 any
+3620 permit ipv4 202.144.208.0/20 any
+3630 permit ipv4 202.145.32.0/19 any
+3640 permit ipv4 202.145.64.0/18 any
+3650 permit ipv4 202.145.128.0/18 any
+3660 permit ipv4 202.145.192.0/19 any
+3670 permit ipv4 202.145.224.0/19 any
+3680 permit ipv4 202.148.208.0/20 any
+3690 permit ipv4 202.151.48.0/20 any
+3700 permit ipv4 202.153.160.0/19 any
+3710 permit ipv4 202.153.192.0/20 any
+3720 permit ipv4 202.154.192.0/19 any
+3730 permit ipv4 202.160.64.0/19 any
+3740 permit ipv4 202.165.120.0/21 any
+3750 permit ipv4 202.165.128.0/20 any
+3760 permit ipv4 202.165.144.0/20 any
+3770 permit ipv4 202.168.192.0/20 any
+3780 permit ipv4 202.169.160.0/20 any
+3790 permit ipv4 202.173.32.0/19 any
+3800 permit ipv4 202.174.4.0/24 any
+3810 permit ipv4 202.174.16.0/20 any
+3820 permit ipv4 202.178.128.0/18 any
+3830 permit ipv4 202.178.192.0/19 any
+3840 permit ipv4 202.178.224.0/19 any
+3850 permit ipv4 203.64.0.0/14 any
+3860 permit ipv4 203.68.0.0/14 any
+3870 permit ipv4 203.72.0.0/14 any
+3880 permit ipv4 203.77.0.0/22 any
+3890 permit ipv4 203.77.4.0/22 any
+3900 permit ipv4 203.77.8.0/21 any
+3910 permit ipv4 203.77.16.0/20 any
+3920 permit ipv4 203.77.32.0/20 any
+3930 permit ipv4 203.77.48.0/20 any
+3940 permit ipv4 203.77.64.0/19 any
+3950 permit ipv4 203.77.96.0/19 any
+3960 permit ipv4 203.78.0.0/22 any
+3970 permit ipv4 203.78.176.0/20 any
+3980 permit ipv4 203.79.128.0/18 any
+3990 permit ipv4 203.79.192.0/19 any
+4000 permit ipv4 203.79.224.0/19 any
+4010 permit ipv4 203.84.130.0/23 any
+4020 permit ipv4 203.84.144.0/21 any
+4030 permit ipv4 203.91.0.0/19 any
+4040 permit ipv4 203.105.224.0/19 any
+4050 permit ipv4 203.111.208.0/20 any
+4060 permit ipv4 203.118.224.0/20 any
+4070 permit ipv4 203.119.3.0/24 any
+4080 permit ipv4 203.119.94.0/24 any
+4090 permit ipv4 203.121.224.0/20 any
+4100 permit ipv4 203.121.240.0/20 any
+4110 permit ipv4 203.133.0.0/19 any
+4120 permit ipv4 203.133.32.0/19 any
+4130 permit ipv4 203.133.64.0/19 any
+4140 permit ipv4 203.133.96.0/19 any
+4150 permit ipv4 203.135.64.0/19 any
+4160 permit ipv4 203.145.192.0/20 any
+4170 permit ipv4 203.145.208.0/20 any
+4180 permit ipv4 203.148.92.0/24 any
+4190 permit ipv4 203.160.144.0/20 any
+4200 permit ipv4 203.160.224.0/19 any
+4210 permit ipv4 203.163.192.0/19 any
+4220 permit ipv4 203.187.0.0/19 any
+4230 permit ipv4 203.187.32.0/19 any
+4240 permit ipv4 203.187.64.0/18 any
+4250 permit ipv4 203.188.192.0/20 any
+4260 permit ipv4 203.190.16.0/21 any
+4270 permit ipv4 203.201.32.0/20 any
+4280 permit ipv4 203.203.0.0/17 any
+4290 permit ipv4 203.203.128.0/17 any
+4300 permit ipv4 203.204.0.0/17 any
+4310 permit ipv4 203.204.128.0/17 any
+4320 permit ipv4 203.207.0.0/20 any
+4330 permit ipv4 203.207.32.0/20 any
+4340 permit ipv4 203.211.0.0/19 any
+4350 permit ipv4 203.217.96.0/19 any
+4360 permit ipv4 203.222.0.0/20 any
+4370 permit ipv4 203.222.16.0/20 any
+4380 permit ipv4 210.17.0.0/17 any
+4390 permit ipv4 210.58.0.0/17 any
+4400 permit ipv4 210.58.128.0/17 any
+4410 permit ipv4 210.59.0.0/16 any
+4420 permit ipv4 210.60.0.0/14 any
+4430 permit ipv4 210.64.0.0/14 any
+4440 permit ipv4 210.68.0.0/14 any
+4450 permit ipv4 210.80.64.0/20 any
+4460 permit ipv4 210.80.80.0/20 any
+4470 permit ipv4 210.85.0.0/16 any
+4480 permit ipv4 210.192.0.0/18 any
+4490 permit ipv4 210.192.128.0/17 any
+4500 permit ipv4 210.200.0.0/19 any
+4510 permit ipv4 210.200.32.0/19 any
+4520 permit ipv4 210.200.64.0/19 any
+4530 permit ipv4 210.200.96.0/19 any
+4540 permit ipv4 210.200.128.0/19 any
+4550 permit ipv4 210.200.160.0/19 any
+4560 permit ipv4 210.200.192.0/18 any
+4570 permit ipv4 210.201.0.0/18 any
+4580 permit ipv4 210.201.64.0/18 any
+4590 permit ipv4 210.201.128.0/18 any
+4600 permit ipv4 210.201.192.0/20 any
+4610 permit ipv4 210.201.208.0/20 any
+4620 permit ipv4 210.201.224.0/19 any
+4630 permit ipv4 210.202.0.0/16 any
+4640 permit ipv4 210.203.0.0/17 any
+4650 permit ipv4 210.208.0.0/18 any
+4660 permit ipv4 210.208.64.0/19 any
+4670 permit ipv4 210.208.96.0/19 any
+4680 permit ipv4 210.208.128.0/18 any
+4690 permit ipv4 210.208.192.0/18 any
+4700 permit ipv4 210.209.0.0/18 any
+4710 permit ipv4 210.209.128.0/20 any
+4720 permit ipv4 210.209.144.0/20 any
+4730 permit ipv4 210.209.160.0/19 any
+4740 permit ipv4 210.209.192.0/18 any
+4750 permit ipv4 210.240.0.0/16 any
+4760 permit ipv4 210.241.0.0/16 any
+4770 permit ipv4 210.242.0.0/15 any
+4780 permit ipv4 210.244.0.0/17 any
+4790 permit ipv4 210.244.128.0/17 any
+4800 permit ipv4 211.20.0.0/14 any
+4810 permit ipv4 211.72.0.0/14 any
+4820 permit ipv4 211.76.0.0/14 any
+4830 permit ipv4 218.32.0.0/16 any
+4840 permit ipv4 218.34.0.0/17 any
+4850 permit ipv4 218.34.128.0/17 any
+4860 permit ipv4 218.35.0.0/16 any
+4870 permit ipv4 218.160.0.0/14 any
+4880 permit ipv4 218.164.0.0/15 any
+4890 permit ipv4 218.166.0.0/15 any
+4900 permit ipv4 218.168.0.0/13 any
+4910 permit ipv4 218.184.0.0/16 any
+4920 permit ipv4 218.187.0.0/17 any
+4930 permit ipv4 218.187.128.0/17 any
+4940 permit ipv4 218.210.0.0/15 any
+4950 permit ipv4 219.68.0.0/17 any
+4960 permit ipv4 219.68.128.0/17 any
+4970 permit ipv4 219.69.0.0/16 any
+4980 permit ipv4 219.70.0.0/15 any
+4990 permit ipv4 219.80.0.0/15 any
+5000 permit ipv4 219.84.0.0/15 any
+5010 permit ipv4 219.86.0.0/15 any
+5020 permit ipv4 219.90.0.0/18 any
+5030 permit ipv4 219.91.0.0/17 any
+5040 permit ipv4 220.128.0.0/18 any
+5050 permit ipv4 220.128.64.0/18 any
+5060 permit ipv4 220.128.128.0/17 any
+5070 permit ipv4 220.129.0.0/16 any
+5080 permit ipv4 220.130.0.0/15 any
+5090 permit ipv4 220.132.0.0/14 any
+5100 permit ipv4 220.136.0.0/13 any
+5110 permit ipv4 220.157.112.0/20 any
+5120 permit ipv4 220.228.0.0/15 any
+5130 permit ipv4 221.120.0.0/18 any
+5140 permit ipv4 221.120.64.0/19 any
+5150 permit ipv4 221.169.0.0/16 any
+5160 permit ipv4 222.156.0.0/16 any
+5170 permit ipv4 222.157.0.0/16 any
+5180 permit ipv4 222.250.0.0/16 any
+5190 permit ipv4 222.251.0.0/17 any
+5200 permit ipv4 223.22.0.0/15 any
+5210 permit ipv4 223.26.0.0/20 any
+5220 permit ipv4 223.26.64.0/18 any
+5230 permit ipv4 223.27.32.0/19 any
+5240 permit ipv4 223.136.0.0/13 any
+5250 permit ipv4 223.165.8.0/21 any
+5260 permit ipv4 223.200.0.0/16 any
