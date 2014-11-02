@@ -4901,3 +4901,4 @@ iptables -t nat -A SHADOWSOCKS -d 223.254.0.0/16 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 223.255.0.0/17 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 223.255.236.0/22 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 223.255.252.0/23 -j RETURN
+iptables -t nat -A SHADOWSOCKS -p tcp -j REDIRECT --to-ports 1080

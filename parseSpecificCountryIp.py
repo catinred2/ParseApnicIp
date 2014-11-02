@@ -56,4 +56,5 @@ while address_line:
 apnic_file.close()
 output_file.close()
 ipv6_output_file.close()
+iptables_output_file.write("iptables -t nat -A SHADOWSOCKS -p tcp -j REDIRECT --to-ports 1080\n")
 iptables_output_file.close()
