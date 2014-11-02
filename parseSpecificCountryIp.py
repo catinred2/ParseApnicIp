@@ -11,11 +11,11 @@ def getMask( value ):
     return mask_value
 
 
-APNIC_IP_FILE = "delegated-apnic-20140214.txt"
-COUNTRY = "TW"
-OUTPUT_FILE_NAME = "taiwan-ipv4-address.txt"
-OUTPUT_IPv6_FILE_NAME = "taiwan-ipv6-address.txt"
-OUTPUT_ACL_FILE_NAME = "gr-tw-ipv4-acl.txt"
+APNIC_IP_FILE = "delegated-apnic-latest"
+COUNTRY = "CN"
+OUTPUT_FILE_NAME = "cn-ipv4-address.txt"
+OUTPUT_IPv6_FILE_NAME = "cn-ipv6-address.txt"
+OUTPUT_ACL_FILE_NAME = "gr-cn-ipv4-acl.txt"
 
 try:
    with open( APNIC_IP_FILE ):
