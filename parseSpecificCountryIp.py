@@ -16,7 +16,7 @@ COUNTRY = "CN"
 OUTPUT_FILE_NAME = "cn-ipv4-address.txt"
 OUTPUT_IPv6_FILE_NAME = "cn-ipv6-address.txt"
 OUTPUT_ACL_FILE_NAME = "gr-cn-ipv4-acl.txt"
-
+OUTPUT_IPTABLES_FILE_NAME = "cn-iptables.txt"
 try:
    with open( APNIC_IP_FILE ):
        apnic_file = open( APNIC_IP_FILE, 'r' )
@@ -27,7 +27,8 @@ except IOError:
 output_file = open( OUTPUT_FILE_NAME, 'w' )
 ipv6_output_file = open( OUTPUT_IPv6_FILE_NAME, 'w' )
 acl_output_file = open( OUTPUT_ACL_FILE_NAME, 'w' )
-
+iptables_output_file = open( OUTPUT_IPTABLES_FILE_NAME, 'w' )
+iptables_output_file.write("#!/bin/bash\n")
 acl_line_num = 20
 acl_output_file.write( "ipv4 access-list source-taiwan-ipv4\n" )
 ref_apnic_file_time = time.strftime( '%Y%m%d', time.gmtime( os.path.getmtime( APNIC_IP_FILE ) ) )
@@ -41,11 +42,12 @@ while address_line:
     matchIpv4Address = re.match( "apnic\|%s\|ipv4\|(\d*.\d*.\d*.\d*)\|(\d*)\|(\d*)\|*" % COUNTRY, address_line, re.M|re.I )
     if matchIpv4Address:
         mask = getMask( matchIpv4Address.group(2) )
-        output_file.write( matchIpv4Address.group(1) + "/" + str(mask) + "\n" )
+	netip = matchIpv4Address.group(1) + "/" + str(mask)
+        output_file.write( netip + "\n" )
         ipv4_address = matchIpv4Address.group(1) + "/" + str(mask)
         acl_output_file.write( "%4d permit ipv4 %s any\n" % (acl_line_num, ipv4_address))
         acl_line_num += 10
-
+	iptables_output_file.write( "iptables -t nat -A SHADOWSOCKS -d " + netip + " -j RETURN\n"  )
     matchIpv6Address = re.match( "apnic\|%s\|ipv6\|([0-9A-Fa-f:]*)\|(\d*)\|(\d*)\|*" % COUNTRY, address_line, re.M|re.I )
     if matchIpv6Address:
         ipv6_output_file.write( "%s/%s\n" % ( matchIpv6Address.group(1), matchIpv6Address.group(2) ) )
@@ -54,3 +56,4 @@ while address_line:
 apnic_file.close()
 output_file.close()
 ipv6_output_file.close()
+iptables_output_file.close()
